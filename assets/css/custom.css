@@ -1,0 +1,13 @@
+/* assets/css/home.css */
+.home-section-bg {
+  filter: blur(8px) brightness(0.8);
+}
+
+.powered-by {
+  display: none;
+}
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

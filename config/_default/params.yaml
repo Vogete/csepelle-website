@@ -1,0 +1,57 @@
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+appearance:
+  mode: light
+  color: indigo
+
+# SEO
+marketing:
+  seo:
+    site_type: Nonprofit
+    local_business_type: ''
+    org_name: 'Csepel Lövész Egylet'
+    description: 'Csepel Lövész Egylet honlapja'
+    twitter: 'GetResearchDev'
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+header:
+  navbar:
+    enable: true
+    block: 'navbar'
+    align: 'center'
+    fixed_to_top: false
+    logo:
+      text: 'Csepel LE'
+      # Logo filename in `assets/media/` folder
+      filename: 'csepelle_logo.svg'
+    show_search: false
+    show_theme_chooser: false
+
+# Site footer
+footer:
+  block: custom-footer
+  text: |
+    Csepel Lövész Egylet
+    <br>
+    Adószám: 19635686-1-13
+    <br>
+    Telefon: +36/20-341-4288
+  show_translations: false
+
+# Localization
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
