@@ -3,6 +3,9 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+title: Csepel Lövész Egylet # Website name
+baseURL: 'https://csepelle.hu/' # Website URL
+
 # Appearance
 appearance:
   mode: light
@@ -33,10 +36,12 @@ header:
     block: 'navbar'
     align: 'center'
     fixed_to_top: false
+    button:
+      enable: false
     logo:
-      text: 'Csepel LE'
+      text: 'Csepel Lövész Egylet'
       # Logo filename in `assets/media/` folder
-      filename: 'csepelle_logo.svg'
+      filename: 'icon.png'
     show_search: false
     show_theme_chooser: false
 
@@ -45,10 +50,6 @@ footer:
   block: custom-footer
   text: |
     Csepel Lövész Egylet
-    <br>
-    Adószám: 19635686-1-13
-    <br>
-    Telefon: +36/20-341-4288
   show_translations: false
 
 # Localization
