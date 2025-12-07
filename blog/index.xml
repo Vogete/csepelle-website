@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog | Csepel Lövész Egylet</title><link>https://vogete.github.io/csepelle-website/blog/</link><atom:link href="https://vogete.github.io/csepelle-website/blog/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://vogete.github.io/csepelle-website/media/logo_hu_9b98ca09ff637f77.png</url><title>Blog</title><link>https://vogete.github.io/csepelle-website/blog/</link></image><item><title>🎉 Easily create your own simple yet highly customizable blog</title><link>https://vogete.github.io/csepelle-website/blog/get-started/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://vogete.github.io/csepelle-website/blog/get-started/</guid><description>&lt;p&gt;Welcome 👋&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog | Csepel Lövész Egylet</title><link>https://vogete.github.io/csepelle-website/blog/</link><atom:link href="https://vogete.github.io/csepelle-website/blog/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>hu-hu</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://vogete.github.io/csepelle-website/media/logo_hu_949be33231e1775f.png</url><title>Blog</title><link>https://vogete.github.io/csepelle-website/blog/</link></image><item><title>🎉 Easily create your own simple yet highly customizable blog</title><link>https://vogete.github.io/csepelle-website/blog/get-started/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://vogete.github.io/csepelle-website/blog/get-started/</guid><description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 &lt;details class="print:hidden xl:hidden" open&gt;
 &lt;summary&gt;Table of Contents&lt;/summary&gt;
 &lt;div class="text-sm"&gt;
@@ -185,7 +185,7 @@ data-callout-metadata=""&gt;
 &lt;p&gt;Hugo Blox supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener"&gt;Plotly&lt;/a&gt; format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-784253961" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-528943176" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 async function fetchChartJSON() {
@@ -201,7 +201,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-784253961', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-528943176', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
