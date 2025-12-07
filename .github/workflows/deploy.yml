@@ -17,19 +17,18 @@ jobs:
           submodules: true # Fetch Hugo themes (true by default without recursive flag)
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 'latest'
+
       - name: Setup Node.js environment
         uses: actions/setup-node@v6
         with:
           cache: 'pnpm' # Cache pnpm modules
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 'latest'
-          run_install: false # We'll run pnpm install in a separate step
-
       - name: Install dependencies with pnpm
-        run: pnpm install
+        run: pnpm i --frozen-lockfile
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
