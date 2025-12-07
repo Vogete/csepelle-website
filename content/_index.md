@@ -7,6 +7,7 @@ type: landing
 design:
   # Default section spacing
   spacing: "1rem"
+  css_class: "bg-blue-50 dark:bg-blue-900"
 
 sections:
   - block: image-hero
@@ -49,47 +50,43 @@ sections:
         - title: Légfegyveres lövészet
           text: |
             A Csepel SC. területén található a 10 méteres légfegyveres lőpályánk amely a légpisztolyos és légpuskás versenyszámok gyakorlásához nyújt ideális környezetet.
-            <br>
-            Légfegyveres edzések:
-            A Csepel SC területén, a hét minden napján. Csoportok: hétfő - szerda, kedd - csütörtök 15:00 - 20:15 -ig.  
-            <br>
-            Edzések látogatása előzetes bejelentkezés alapján!
+            Légfegyveres edzések a Csepel SC területén kedden és csütörökön vannak 15:00 és 20:00 között.
             <br>
             <br>
-            Megközelíthetőségünk: 1212 Bp. Béke tér 1. Csepel SC gépjármű bejárata felől.  
-            Tömegközlekedéssel: 35-ös, 36-os, 148-as, 152-es, illetve a 159-es autóbusszal és a Csepeli HÉV végállomásától.
+            Edzések látogatása előzetes bejelentkezés alapján lehetséges.  
+            Egyeztetni a 06 20 341 4288 telefonszámon lehet.
           image: legfegyveres_loter.png
 
         - title: Tűzfegyveres lövészet
           text: |
             A 25 méteres lőpályánk egyaránt alkalmasa kis és nagykaliberű lővészet számára.
-            <br>
             A lőállások elektronikus lőlapmozgató berendezéssel vannak ellátva.
-          image: coffee.jpg
-
-        - title: Elérhetőségeink
-          text: |
-            Csepel Lövész Egylet címe: 1212 Bp. Béke tér 1. (Csepel SC. területén)  
-            Levelezési cím: 2310 Szigetszentmiklós, Nyár u. 27.  
-            Adószámunk: 19635686-1-13  
-            E mail: info.csepellovesz(kukac)gmail.com
           image: coffee.jpg
     design:
       # Section background color (CSS class)
       css_class: "bg-blue-50 dark:bg-blue-900"
 
-  # - block: markdown
-  #   content:
-  #     title: Elérhetőségeink
-  #     text: |
-  #       Csepel Lövész Egylet címe: 1212 Bp. Béke tér 1. (Csepel SC. területén)  
-  #       Levelezési cím: 2310 Szigetszentmiklós, Nyár u. 27.  
-  #       Adószámunk: 19635686-1-13  
-  #       E mail: info.csepellovesz(kukac)gmail.com
-  #     columns: "2"
-    
-  #   design:
-  #     css_class: "max-w-96"
-  #     background:
-  #       css_class: "bg-blue-50 dark:bg-blue-900"
+
+  - block: markdown
+    content:
+      title: Információnk
+      text: |
+        #### Elérhetőségeink
+
+        **Csepel Lövész Egylet címe**: Csepel SC, 1212 Béke tér 1.   
+        **Levelezési cím**: 2310 Szigetszentmiklós, Nyár u. 27.  
+        **Adószámunk**: 19635686-1-13  
+        **E mail**: info.csepellovesz (kukac) gmail.com  
+        **Telefonszám**: 06 20 341 4288
+
+        #### Megközelíthetőségünk
+
+        1212 Bp. Béke tér 1. Csepel SC gépjármű bejárata felől.
+        
+        Tömegközlekedéssel: 35-ös, 36-os, 148-as, 152-es, illetve a 159-es autóbusszal.
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1636.5859773850548!2d19.070462851410593!3d47.4183654405327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e75217b5c3fb%3A0x1d54cb34d6a81c0a!2sCsepel%20L%C3%B6v%C3%A9sz%20Egylet!5e1!3m2!1sen!2sdk!4v1765131616579!5m2!1sen!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      columns: "3"
+    design:
+      css_class: "bg-blue-50 dark:bg-blue-900"
 ---

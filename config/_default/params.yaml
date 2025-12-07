@@ -3,8 +3,6 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Csepel Lövész Egylet # Website name
-baseURL: 'https://csepelle.hu/' # Website URL
 
 # Appearance
 appearance:
@@ -32,7 +30,7 @@ marketing:
 # Site header
 header:
   navbar:
-    enable: true
+    enable: false
     block: 'navbar'
     align: 'center'
     fixed_to_top: false
@@ -49,10 +47,10 @@ header:
 footer:
   block: custom-footer
   text: |
-    Csepel Lövész Egylet
+    Csepel Lövész Egylet  
   show_translations: false
 
 # Localization
 locale:
   date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  time_format: '15:04'
