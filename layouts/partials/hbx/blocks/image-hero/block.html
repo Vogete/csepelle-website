@@ -25,15 +25,13 @@
             "mode" "fit"
             "sizes" (slice 400 600 800 1200)
         ) }}
-        <img class="mx-auto h-40 md:h-56 lg:h-64 mb-6" 
+        <img class="mx-auto md:h-56 lg:h-64 mb-6" 
              srcset="{{ $responsive.srcset }}"
-             sizes="(max-width: 768px) 100vw, 50vw"
+             sizes="(max-width: 20rem) 100vw, 50vw"
              src="{{ $responsive.fallback.RelPermalink }}" 
-             width="{{ $responsive.fallback.Width }}"
-             height="{{ $responsive.fallback.Height }}"
              alt="{{$block.content.title | plainify}}">
       {{ else }}
-        <img class="mx-auto h-40 md:h-56 lg:h-64 mb-6"
+        <img class="mx-auto md:h-56 lg:h-64 mb-6"
              src="{{$image.RelPermalink}}" 
              width="{{$image.Width}}"
              height="{{$image.Height}}"
