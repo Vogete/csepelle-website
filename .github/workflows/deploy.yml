@@ -35,7 +35,8 @@ jobs:
           extended: true
 
       - name: Build Hugo site
-        run: hugo --minify --baseURL "/"
+        # TODO: change website URL
+        run: hugo --minify --baseURL "https://vogete.github.io/csepelle-website/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
