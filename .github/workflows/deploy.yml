@@ -29,6 +29,12 @@ jobs:
       - name: Add pnpm to PATH
         run: echo "$(npm config get prefix)/bin" >> $GITHUB_PATH
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8 # or 'latest'
+          run_install: false # We'll run pnpm install in a separate step
+
       - name: Install Node.js dependencies
         run: pnpm install
 
